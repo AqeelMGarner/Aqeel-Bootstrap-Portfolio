@@ -1,0 +1,46 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    font-family: 'jura', sans-serif;
+}
+body {
+    background-color: rgba(113, 104, 104, 0.851);
+}
+.profile-picture {
+    height: 38px;
+    width: 38px;
+    margin: 10px;
+}
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255) !important;
+    background-size: cover;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+.navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+}
+.nav-item {
+    margin: 0px 15px;
+}
+.WebDev {
+    background-color: rgb(255, 255, 255);
+}
+.picture-of-me {
+    width: 50px;
+    height: 50px;
+}
+.work {
+    width: 50px;
+    height: 50px;
+}
+.Contact-Me {
+    width: 50px;
+    height: 50px;
+}
