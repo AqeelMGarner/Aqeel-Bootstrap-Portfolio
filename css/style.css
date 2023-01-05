@@ -1,11 +1,18 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Times New Roman', Times, serif;
+    color: gold;
 }
 p {
-    font-family: 'jura', sans-serif;
+    font-family: fantasy;
+    color: gold
 }
 body {
-    background-color: rgba(113, 104, 104, 0.851);
+    background-color: rgb(140, 124, 180);
+}
+mark {
+    background-color: gold;
+    font-size: 30px;
+    width: 40%;
 }
 .profile-picture {
     height: 38px;
@@ -15,22 +22,39 @@ body {
 .customNav {
     position: fixed;
     width: 100%;
-    background-color: rgb(255, 255, 255) !important;
+    background-color: rgb(66, 78, 116) !important;
     background-size: cover;
+    color: gold;
 }
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
 }
-.navbar-brand img {
-    padding-right: 15px;
-    width: 65px;
+.navbar-brand {
+    color: gold;
 }
 .nav-item {
     margin: 0px 15px;
+    color: gold;
 }
-.WebDev {
-    background-color: rgb(255, 255, 255);
+.Web {
+    background: url('../images/Screenshot_background.png');
+    padding-left: 70%;
+    height: 250px;
+    color: gold;
+}
+hr {
+  border-left: 6px solid rgb(66, 78, 116);
+  height: 200px;
+  position:absolute;
+  right: 80%;
+}
+.aboutMeText {
+    font-size: 20px;
+    padding-left: 20%;
+}
+.Prework-Study-Guide {
+    background-color: crimson;
 }
 .picture-of-me {
     width: 50px;
@@ -43,4 +67,7 @@ body {
 .Contact-Me {
     width: 50px;
     height: 50px;
+}
+.footer {
+    color: gold;
 }
