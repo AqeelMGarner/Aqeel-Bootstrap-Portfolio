@@ -1,10 +1,8 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Times New Roman', Times, serif;
-    color: gold;
 }
 p {
     font-family: fantasy;
-    color: gold
 }
 body {
     background-color: rgb(140, 124, 180);
@@ -26,39 +24,76 @@ mark {
     background-size: cover;
     color: gold;
 }
+ins {
+    color: gold;
+    font-size: 20px;
+}
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
 }
-.navbar-brand {
-    color: gold;
-}
-.nav-item {
-    margin: 0px 15px;
-    color: gold;
-}
+
 .Web {
     background: url('../images/Screenshot_background.png');
     padding-left: 70%;
     height: 250px;
     color: gold;
 }
+.aboutMe {
+    display: inline;
+    text-align: right;
+}
 hr {
   border-left: 6px solid rgb(66, 78, 116);
   height: 200px;
   position:absolute;
   right: 80%;
+  display: inline;
 }
 .aboutMeText {
     font-size: 20px;
     padding-left: 20%;
+    display: inline-block;
+    color: gold;
+}
+.workhr {
+    height: 470px;
+    display: inline;
+}
+.workText {
+    color: gold;
 }
 .Prework-Study-Guide {
-    background-color: crimson;
+    background-image: url(../images/Screenshot_prework.png);
+    background-size: 800px;
+    margin: 0.5rem;
+    
+}
+.Horiseon {
+    background-image: url(../images/Screenshot_horiseon.png);
+    background-size: 400px;
+    margin: 0.5rem;
+    margin-left: 0.5rem;
+}
+.Led-wall {
+    background-image: url(../images/Screenshot_led-wall.png);
+    background-size: 400px;
+    margin: 0.5rem;
+    margin-right: 0.5rem;
+}
+.Calculator {
+    background-image: url(../images/Screenshot_calculator.png);
+    background-size: 400px;
+    margin: 0.5rem;
+}
+.Run-Buddy {
+    background-image: url(../images/Screenshot_run-buddy.png);
+    background-size: 400px;
+    margin: 0.5rem;
 }
 .picture-of-me {
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
 }
 .work {
     width: 50px;
@@ -69,5 +104,5 @@ hr {
     height: 50px;
 }
 .footer {
-    color: gold;
+    text-align: center;
 }
